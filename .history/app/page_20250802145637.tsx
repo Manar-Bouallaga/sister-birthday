@@ -161,26 +161,15 @@ useEffect(() => {
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 {
-                  message: "My Beautiful Sister ❤💕 — I love you today, tomorrow & always.",
+                  message: "My beautiful Sister  I love you today , tomorrow & always  ",
+                  icon: "🖤❤",
+                },
+                {
+                  message: "May all your dreams and aspirations come true",
                   icon: "",
                 },
                 {
-                  message: "I’m so happy because I have the best friend in the world. ❤💕 Yes, it’s you 😉",
-                  icon: "",
-                },
-                {
-                  message: "To be honest, you're more than just my favorite person. You're one of a kind. You hold a special place in my heart. 🥰",
-                  icon: "",
-                },{
-                  message: "عيد ميلاد سعيد ربي يخليك ليا ويحقق ليك كلشي كتمنايه من قلبك🌺",
-                  icon: "",
-                },
-                {
-                  message: "الله يرزقك راحة البال وصحبة الخير ويبعد عليك ولاد لحرام وبنات لحرام ويبدلك بخير منهم",
-                  icon: "",
-                },
-                {
-                  message: "الله يهديك للطريق اللي فيه الخير ويفتح ليك باب الرزق والتيسير ❤💕",
+                  message: "May you always be in good health and wellness",
                   icon: "",
                 },
               ].map((item, index) => (

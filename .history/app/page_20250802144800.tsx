@@ -9,15 +9,10 @@ import BackgroundMusic from "@/components/background-music"
 
 export default function BirthdayWebsite() {
   const [showConfetti, setShowConfetti] = useState(false)
-type Position = {
-  left: string
-  top: string
-}
-
-const [positions, setPositions] = useState<Position[]>([])
+const [positions, setPositions] = useState([])
 
 useEffect(() => {
-  const generated: Position[] = [...Array(15)].map(() => ({
+  const generated = [...Array(15)].map(() => ({
     left: `${Math.random() * 100}%`,
     top: `${Math.random() * 100}%`,
   }))
@@ -42,7 +37,6 @@ useEffect(() => {
     </div>
   ))}
 </div>
-
 
 
       {/* Hero Section */}
@@ -161,26 +155,15 @@ useEffect(() => {
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 {
-                  message: "My Beautiful Sister ❤💕 — I love you today, tomorrow & always.",
+                  message: "I wish you a year filled with happiness and joy",
                   icon: "",
                 },
                 {
-                  message: "I’m so happy because I have the best friend in the world. ❤💕 Yes, it’s you 😉",
+                  message: "May all your dreams and aspirations come true",
                   icon: "",
                 },
                 {
-                  message: "To be honest, you're more than just my favorite person. You're one of a kind. You hold a special place in my heart. 🥰",
-                  icon: "",
-                },{
-                  message: "عيد ميلاد سعيد ربي يخليك ليا ويحقق ليك كلشي كتمنايه من قلبك🌺",
-                  icon: "",
-                },
-                {
-                  message: "الله يرزقك راحة البال وصحبة الخير ويبعد عليك ولاد لحرام وبنات لحرام ويبدلك بخير منهم",
-                  icon: "",
-                },
-                {
-                  message: "الله يهديك للطريق اللي فيه الخير ويفتح ليك باب الرزق والتيسير ❤💕",
+                  message: "May you always be in good health and wellness",
                   icon: "",
                 },
               ].map((item, index) => (
@@ -247,7 +230,7 @@ useEffect(() => {
       <footer className="bg-gray-800 text-white py-8 relative z-10">
         <div className="container mx-auto px-4 text-center">
           <h3 className="text-2xl font-semibold mb-2" style={{ fontFamily: "Dancing Script, cursive" }}>
-            Happy Birthday My Lovely Sister
+            Happy Birthday My Love
           </h3>
           <p className="text-gray-300">I love you more than words can say 💕</p>
         </div>

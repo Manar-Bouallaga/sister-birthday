@@ -180,7 +180,7 @@ useEffect(() => {
                   icon: "",
                 },
                 {
-                  message: "الله يهديك للطريق اللي فيه الخير ويفتح ليك باب الرزق والتيسير ❤💕",
+                  message: "To be honest, you're more than just my favorite person. You're one of a kind. You hold a special place in my heart. 🥰",
                   icon: "",
                 },
               ].map((item, index) => (

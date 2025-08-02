@@ -172,15 +172,15 @@ useEffect(() => {
                   message: "To be honest, you're more than just my favorite person. You're one of a kind. You hold a special place in my heart. 🥰",
                   icon: "",
                 },{
-                  message: "عيد ميلاد سعيد ربي يخليك ليا ويحقق ليك كلشي كتمنايه من قلبك🌺",
+                  message: "أ🌸تمنى لكِ سنة مليئة بالسعادة والنجاح، وأن تتحقق فيها كل أحلامك🌸,
                   icon: "",
                 },
                 {
-                  message: "الله يرزقك راحة البال وصحبة الخير ويبعد عليك ولاد لحرام وبنات لحرام ويبدلك بخير منهم",
+                  message: "I’m so happy because I have the best friend in the world. ❤💕 Yes, it’s you 😉",
                   icon: "",
                 },
                 {
-                  message: "الله يهديك للطريق اللي فيه الخير ويفتح ليك باب الرزق والتيسير ❤💕",
+                  message: "To be honest, you're more than just my favorite person. You're one of a kind. You hold a special place in my heart. 🥰",
                   icon: "",
                 },
               ].map((item, index) => (
