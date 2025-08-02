@@ -6,7 +6,8 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Happy Birthday My Love 💕",
+  title: "Happy Birthday My Lovely Sister
+ 💕",
   description: "A special birthday website for my best friend",
   
 }
@@ -19,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="shortcut icon" href="" type="image/x-icon" />
+        <link rel="shortcut icon" href="icon.png" type="image/png" />
         <link
           href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
           rel="stylesheet"
